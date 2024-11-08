@@ -27,6 +27,7 @@ export default function Navbar() {
     setDrawerVisible(!drawerVisible);
   };
 
+  {/* Menu Items for profile button */}
   const menu = (
     <Menu>
       <Menu.Item key="profile" icon={<UserOutlined />}>
@@ -68,9 +69,13 @@ export default function Navbar() {
               style={{ fontSize: "20px", cursor: "pointer" }}
             />
           </Dropdown>
+
+          {/* Notification Icon */}
           <Badge count={5} className="icon-badge">
             <BellOutlined className="user-icon" />
           </Badge>
+
+          {/* Dark Mode toggle button */}
           {darkMode ? (
             <MoonFilled
               onClick={() => handleToggleTheme(false)}
@@ -85,7 +90,7 @@ export default function Navbar() {
         </div>
       </Header>
 
-      {/* Mobile drawer component */}
+      {/* Mobile drawer component for mobile screen*/}
       <MobileDrawer visible={drawerVisible} onClose={handleToggleMenu} />
     </>
   );

@@ -5,6 +5,8 @@ const { Content } = Layout;
 const { Search } = Input;
 
 export default function UserManagement() {
+
+  //useUserManagement hook to fetch user data and manage user state.
   const { searchText, handleUserSearch, columns, filteredData } = useUserManagement();
   return (
     <Content className="dashboard-content">

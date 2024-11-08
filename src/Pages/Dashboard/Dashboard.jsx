@@ -15,6 +15,7 @@ export default function Dashboard() {
   return (
     <Content className="dashboard-content">
       <div className="dashboard-header">
+        {/* InfoChips will display the statistics data. */}
         {statsData.map((item) => (
           <InfoChips
             title={item.title}
@@ -25,13 +26,19 @@ export default function Dashboard() {
         ))}
       </div>
       <div className="dashboard-charts">
+        
+        {/* Column Chart Component */}
         <Card className="chart-card">
           <ActiveUsersColumnChart />
         </Card>
+
+        {/* Line Chart Component */}
         <Card className="chart-card">
           <ActiveUsersLineChart />
         </Card>
       </div>
+      
+      {/* This section will show the recent activity of users. */}
       <div className="dashboard-stats">
         <Card className="stats-panel">
           <RecentActivity />
