@@ -3,7 +3,7 @@ import { Layout} from "antd";
 import "./DashboardContent.scss";
 import Dashboard from "../../Pages/Dashboard/Dashboard";
 import UserManagement from "../../Pages/UserManagement/UserManagement";
-import Report from  "../../Pages/Reports/Report";
+import Report from  "../../Pages/Reports/Reports";
 import Settings from  "../../Pages/Settings/Settings";
 import { Route, Routes } from "react-router-dom";
 import Sidebar from "../Sidebar/Sidebar";
