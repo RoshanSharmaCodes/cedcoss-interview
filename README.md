@@ -1,70 +1,98 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deployed Link: https://cedcoss-interview.vercel.app/
 
-## Available Scripts
+## Bonus Functionalities Implemented
+- Dark Mode (Using Context API & SASS Variables)
+- Charts using Highchart.js
+- Edit and Delete functionality in the User Table
 
-In the project directory, you can run:
+## Note to Interviewer
+- I have used useState, useEffect and Context API to manage state and present Data.
+- I have compiled all the content data in Content Folder so we don't have to search for content everywhere.
+- I have created 4 Folder:
+  - Content: To contain all the content
+  - Layout: Which contains all the layout -> Sidebar, Navbar, Dashboard
+  - Pages: It Contains all the pages we need to route -> Users, Reports, Settings, Dashboard.
+  - Component: It Contains the components like InfoCard, Charts, Recent Activity etc..
+- I have also added hover effect on Tables rows and Cards.
+- I have also implemented Search bar feature on User Management table.
+- I have also added Edit and Delete feature on User Management.
+- I have also used customHooks to make the code look cleaner and concise.
+- I have also added Dark mode using Content API and SCSS Variables.
+- I have also added Menu on the profile button on navbar.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots for Light Theme:
+Dashboard:
+![image](https://github.com/user-attachments/assets/328fc0fd-8584-4b29-9a4f-25ef2e27e62e)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+User Management:
+![image](https://github.com/user-attachments/assets/61b6200d-74f7-49ff-8b72-5bb1dec1543d)
 
-### `npm test`
+Edit Name Feature for User:
+![image](https://github.com/user-attachments/assets/18a6ccbb-20f0-4f86-b121-066056cd8477)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Search Bar Feature for User:
+![image](https://github.com/user-attachments/assets/4a4cd0aa-79d1-47de-95f5-1dc947038a65)
 
-### `npm run build`
+Profile Menu for User:
+![image](https://github.com/user-attachments/assets/46cbd7a7-d6c8-4c8b-a98d-0191c1f57420)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Collaspable Sidebar:
+![image](https://github.com/user-attachments/assets/fba493e0-0353-47ae-8630-03a20fe85ce8)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Hover Effect on InfoCards:
+![image](https://github.com/user-attachments/assets/c0aff5e2-008a-4779-9947-aa0dc315dd2f)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Recent Activity of Users:
+![image](https://github.com/user-attachments/assets/ae04812b-e772-4c9e-95e2-c92266eaadc2)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Screenshots for Light Theme:
+Dashboard:
+![image](https://github.com/user-attachments/assets/aeac6410-e448-4e65-9c0c-8db8e2dfebcd)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Recent Activity:
+![image](https://github.com/user-attachments/assets/08c2241a-bd3f-4565-8475-d42f171f1281)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+High Charts:
+![image](https://github.com/user-attachments/assets/393aa41f-9161-4bc0-995c-ba645b8fc11e)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+User Management Section:
+![image](https://github.com/user-attachments/assets/e63bcb43-eb0e-4550-aad2-229a0db71e03)
 
-## Learn More
+Search Bar Functionality for User:
+![image](https://github.com/user-attachments/assets/a322b2d0-969b-422a-8de2-4f32c20a25c9)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Mobile Screen-Shots:
+Sidebar for Mobile Screen:
+![image](https://github.com/user-attachments/assets/b0161712-5ba5-4202-946a-fcffcc5be84d)
 
-### Code Splitting
+Stats Cards:
+![image](https://github.com/user-attachments/assets/8901e2e7-6412-4bf0-85b9-39faa03e70b9)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+High Charts:
+![image](https://github.com/user-attachments/assets/5e78d54a-4fce-419a-a6d2-abe619959432)
 
-### Analyzing the Bundle Size
+Recent Activity:
+![image](https://github.com/user-attachments/assets/ebaaa294-f0f4-46b9-96ab-b3c0a8313e90)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Scrollable Table with Search bar:
+![image](https://github.com/user-attachments/assets/f6451655-bc88-447c-9e98-2c6a5d143408)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Tab Screen Size
+Dashboard:
+![image](https://github.com/user-attachments/assets/6de9a5d2-4040-42e3-94c0-89b1564fb3dc)
 
-### Advanced Configuration
+Recent Activity Section:
+![image](https://github.com/user-attachments/assets/83203e1f-1d68-4946-9c73-683d39772cfb)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![image](https://github.com/user-attachments/assets/6458d56c-2b4f-4584-8d96-78734a9fc51d)
 
-### Deployment
+Edit UserName Funtionality:
+![image](https://github.com/user-attachments/assets/f0feee10-32f5-41af-8d04-9160d675811b)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
