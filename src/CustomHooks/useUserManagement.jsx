@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Space, Tag, Input, Button } from "antd";
-import { UserDetails } from "../../Content";
+import { UserDetails } from "../Content";
 
 export const useUserManagement = () => {
   const [data, setData] = useState(UserDetails);

@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
-import { ActiveUsersChartData } from "../../../Content/ActiveUsersChartData";
-import { GlobalSettingsContext } from "../../../App.js";
+import { ActiveUsersChartData } from "../Content/ActiveUsersChartData.js";
+import { GlobalSettingsContext } from "../App.js";
 
 export const useActiveUsersColumnChart = () => {
   const { darkMode } = useContext(GlobalSettingsContext);

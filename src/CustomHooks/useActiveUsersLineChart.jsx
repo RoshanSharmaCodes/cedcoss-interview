@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
-import { ActiveUsersLineChartData } from "../../../Content/ActiveUsersLineChartData.js";
-import { GlobalSettingsContext } from "../../../App.js";
+import { ActiveUsersLineChartData } from "../Content/ActiveUsersLineChartData.js";
+import { GlobalSettingsContext } from "../App.js";
 
 export const useActiveUsersLineChart = () => {
   const { darkMode } = useContext(GlobalSettingsContext);

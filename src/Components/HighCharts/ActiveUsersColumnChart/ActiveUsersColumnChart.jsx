@@ -1,8 +1,9 @@
 import React from "react";
 import { HighchartsReact } from "highcharts-react-official";
 import Highcharts from "highcharts";
-import { useActiveUsersColumnChart } from "./useActiveUsersColumnChart.jsx";
+
 import "./ActiveUsersColumnChart.scss";
+import { useActiveUsersColumnChart } from "../../../CustomHooks/useActiveUsersColumnChart.jsx";
 
 export const ActiveUsersColumnChart = () => {
   const { chartOptions } = useActiveUsersColumnChart();

@@ -1,6 +1,6 @@
 import { Table, Layout, Input } from "antd";
-import { useUserManagement } from "./useUserManagement";
 import "./UserManagement.scss";
+import { useUserManagement } from "../../CustomHooks/useUserManagement";
 const { Content } = Layout;
 const { Search } = Input;
 

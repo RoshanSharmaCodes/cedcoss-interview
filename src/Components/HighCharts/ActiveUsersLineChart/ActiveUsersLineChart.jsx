@@ -1,7 +1,7 @@
 import React from "react";
 import { HighchartsReact } from "highcharts-react-official";
 import Highcharts from "highcharts";
-import { useActiveUsersLineChart } from "./useActiveUsersLineChart.jsx";
+import { useActiveUsersLineChart } from "../../../CustomHooks/useActiveUsersLineChart.jsx";
 import "./ActiveUsersLineChart.scss";
 
 export const ActiveUsersLineChart = () => {
