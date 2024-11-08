@@ -3,25 +3,27 @@
 Deployed Link: https://cedcoss-interview.vercel.app/
 
 ## Bonus Functionalities Implemented
-- Dark Mode (Using Context API & SASS Variables)
-- Charts using Highchart.js
+- Dark Mode (using Context API and SASS variables)
+- Charts using Highcharts.js
 - Edit and Delete functionality in the User Table
+- Navigation between components using React Router
 
 ## Note to Interviewer
-- I have used useState, useEffect and Context API to manage state and present Data.
-- I have compiled all the content data in Content Folder so we don't have to search for content everywhere.
-- I have created 4 Folder:
-  - Content: To contain all the content
-  - Layout: Which contains all the layout -> Sidebar, Navbar, Dashboard
-  - Pages: It Contains all the pages we need to route -> Users, Reports, Settings, Dashboard.
-  - Component: It Contains the components like InfoCard, Charts, Recent Activity etc..
-- I have also added hover effect on Tables rows and Cards.
-- I have also implemented Search bar feature on User Management table.
-- I have also added Edit and Delete feature on User Management.
-- I have also used customHooks to make the code look cleaner and concise.
-- I have also added Dark mode using Content API and SCSS Variables.
-- I have also added Menu on the profile button on navbar.
-
+- I have used useState, useEffect, and Context API to manage state and display data.
+- All content data has been organized in a Content folder for easy access.
+- The project is structured into 5 folders:
+    - Content: Contains all the content data.
+    - Layout: Contains the layout components (Sidebar, Navbar, Dashboard).
+    - Pages: Contains the pages for routing (Users, Reports, Settings, Dashboard).
+    - Components: Contains reusable components like InfoCard, Charts, Recent Activity, etc.
+    - Custom Hooks: This contains customHook to make the code clear and concise.
+- I have added hover effects on table rows and cards.
+- A search bar feature has been implemented in the User Management table.
+- React Router has been used to enable navigation between components.
+- The Edit and Delete functionalities have been implemented in the User Management table.
+- Custom hooks have been used to keep the code clean and concise.
+- Dark Mode has been implemented using the Context API and SCSS variables.
+- A menu has been added to the profile button in the navbar.
 
 ## Screenshots for Light Theme:
 Dashboard:
